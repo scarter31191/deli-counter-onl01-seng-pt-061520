@@ -8,5 +8,9 @@ def line(array)
         new_array.push("#{counter}. #{new_array}")
         counter +=1 
       end
-      puts 
+      puts "The line is currently #{new_array.join (" ")}"
+    else
+      puts "The line is currently empty."
+    end
+  end
   
