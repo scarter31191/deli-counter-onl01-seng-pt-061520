@@ -18,6 +18,10 @@ def line(array)
    line.push(new_person)
    puts "Welcome, #{new_person}. you are number #{line.length} in line."
  end
+ 
+ def now_serving(line)
+   if line.length == 0
+      puts "" 
   
   
   
