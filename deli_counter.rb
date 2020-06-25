@@ -11,7 +11,6 @@ def line(array)
       puts "The line is currently: #{new_array.join (" ")}"
     else
       puts "The line is currently empty."
-      line.shift
     end
   end
   
@@ -25,6 +24,7 @@ def line(array)
       puts "There is nobody waiting to be served!" 
    else
      puts "Currently serving #{line[0]}."
+     line.shift
    end
  end
   
